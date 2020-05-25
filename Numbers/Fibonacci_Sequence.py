@@ -6,4 +6,4 @@ def fibonacci_sequence(n):
         yield a 
         a,b = b, a+b
 for num in fibonacci_sequence(20):
-    print(num) #Prints the sequence ahahaasjhdasdkajsdkjad
+    print(num)
