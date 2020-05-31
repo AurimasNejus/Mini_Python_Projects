@@ -1,3 +1,4 @@
+#Just a simple guessing game
 import random
 guesses = 0
 random_number = random.randint(1,20)
@@ -22,6 +23,7 @@ while True:
     else:
        print("Please write the number between 1 and 20!")
        continue
+#TO DO: Implement play again function
 # play_again = str(input("Do you want to play again? Y/N"))
 # if play_again == "Y":
 
